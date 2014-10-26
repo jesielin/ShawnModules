@@ -29,18 +29,13 @@ public class MainActivity extends Activity {
         iv2.setBackground(drawable2);
         iv3.setBackground(drawable3);
 
-//        prepareAnimator(drawable1);
-//        prepareAnimator(drawable2);
-//        prepareAnimator(drawable3);
+        drawable1.startPlay(3600);
+        drawable2.startPlay(100);
+        drawable3.startPlay(10000);
 
-        DebugLog.e("aaaaaaaaa");
+
     }
 
-    private void prepareAnimator(AlphaCircleProgressDrawable drawable) {
-        Animator animation = ObjectAnimator.ofFloat(drawable, AlphaCircleProgressDrawable.PROGRESS_PROPERTY, 0.0f, 1.0f);
-        animation.setDuration(3600);
-        animation.start();
-    }
 
 
     @Override

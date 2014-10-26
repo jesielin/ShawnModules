@@ -9,8 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/circledrawable" />
             <option value="$PROJECT_DIR$/libDebugLog" />
+            <option value="$PROJECT_DIR$/shawn graphics" />
             <option value="$PROJECT_DIR$/utils" />
           </set>
         </option>

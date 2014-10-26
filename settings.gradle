@@ -1,2 +1,2 @@
-include ':app', ':circledrawable', ':utils'
+include ':app', ':shawn graphics', ':utils'
 include ':libDebugLog'

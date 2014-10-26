@@ -1,5 +1,7 @@
 package com.shawn.graphics.drawable;
 
+import android.animation.Animator;
+import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -216,5 +218,11 @@ public class AlphaCircleProgressDrawable extends Drawable {
     @Override
     public int getOpacity() {
         return 0;
+    }
+
+    public void startPlay(int duration){
+        Animator animation = ObjectAnimator.ofFloat(this, AlphaCircleProgressDrawable.PROGRESS_PROPERTY, 0.0f, mProgress);
+        animation.setDuration(duration);
+        animation.start();
     }
 }
