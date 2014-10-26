@@ -81,7 +81,7 @@
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="libDebugLog" exported="" />
-    <orderEntry type="module" module-name="circledrawable" exported="" />
+    <orderEntry type="module" module-name="shawn graphics" exported="" />
   </component>
 </module>
 
